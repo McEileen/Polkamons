@@ -21,7 +21,8 @@ export default () => (
         </ul>
         <ul className="nav navbar-nav navbar-right">
           <li><Link to="/"><i className="fa fa-home fa-fw"></i> Home</Link></li>
-          <li><Link to="/polkamon"><i className="fa fa-hashtag fa-fw"></i> Polkamon</Link></li>
+          <li><Link to="/polkamon"><i className="fa fa-optin-monster"></i> Polkamon</Link></li>
+          <li><Link to="/register"><i className="fa fa-user-plus"></i> Register</Link></li>
           <li><Link to="/faq"><i className="fa fa-question-circle-o fa-fw"></i> Faq</Link></li>
         </ul>
       </div>

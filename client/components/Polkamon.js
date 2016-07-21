@@ -28,6 +28,7 @@ export default class Polkamon extends React.Component {
    .then((response) => response.text())
    .then((responseText) => {
      const jsonifiedData = JSON.parse(responseText);
+    //  if (response.code === 401) this.setState({ autherror: true }); 
      this.setState({ polkamons: jsonifiedData.polkamons });
    });
   }
